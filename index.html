@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- thank you to https://codepen.io/TajShireen/pen/abzmoRE for the title style -->
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/addons/p5.sound.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  <meta charset="utf-8" />
+
+</head>
+
+<body>
+  <h1>let's learn about WEIGHT</h1>
+  <h2>what is Weight?</h2>
+    <p>Weights are a measure of the strength between two neurons. They scale from 0 to 1. The higher the weight, the more influence the input neuron will have on its associated output neuron. For example, a neuron with a weight of 0.9 will be incredibly influential on the output, while a neuron with a weight of 0.02 will not have a substantial imapact. <br> <br> Weights are separate from biases, which are not impacted by the values of the past layer of neurons. Unlike weights, biases are always set to 1, to allow the activation of further layers even if the previous neurons and weights all equate to 0. While a bias cannot be impacted by incoming weights, later layers can shape it.</p> <hr>
+  <h2> grid simulation</h2>
+  <p> The grid below is capable of number detecting - it uses predetermined weights to tell if you've input a 0, 1, or a 4 by clicking the squares. Today, we're going to focus on square 2B, the center square. At default, this square has a weight of .66 for the output of 1, .33 for the output of 4, and .00 for the output of 0. See if you can change the final result by changing these three weights!</p>
+<label for="zerow">Zero Weight (between 0 and 1):</label>
+<input type="number" id="zerow" name="zerow" min="0" max="1"><br>
+  <label for="onew">One Weight (between 0 and 1):</label>
+<input type="number" id="onew" name="onew" min="0" max="1"><br>
+  <label for="fourw">Four Weight (between 0 and 1):</label>
+<input type="number" id="fourw" name="fourw" min="0" max="1">
+
+  <p id= "result">...</p>
+  <script src="sketch.js"></script>
+</body>
+
+</html>
