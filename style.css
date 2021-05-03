@@ -1,0 +1,40 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Indie Flower', sans-serif;
+  color: #c11a2b;;
+  text-align: center;
+}
+
+canvas {
+  display: block;
+  margin-left: 22.5%;
+}
+
+h2{
+  background: salmon;
+   color: #fcedd8;
+}
+
+h1{
+	    text-align: center;
+	    color: #fcedd8;
+	    background: salmon;
+	   	font-family: 'Indie Flower', cursive;
+	    font-weight: 700;
+      text-shadow: 1px 1px 0px #eb452b, 
+                  2.0px 2.0px 0px #efa032, 
+                  3.0px 3.0px 0px #46b59b, 
+                  4.0px 4.0px 0px #017e7f, 
+                  5.0px 5.0px 0px #052939, 
+                  6.0px 6.0px 0px #c11a2b, 
+                  7.0px 7.0px 0px #c11a2b, 
+                  8.0px 8.0px 0px #c11a2b, 
+                  9.0px 9.0px 0px #c11a2b;
+}
+
+
+* {
+  background-image: url("https://www.mwallpapers.com/photos/wallpapers/3d-abstract/aesthetic-pink-desktophd-wallpapers-desktop-background-android-iphone-1080p-4k-sgzpv.jpg?v=1576599426");
+}
